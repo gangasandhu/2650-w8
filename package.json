@@ -10,11 +10,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "connect-redis": "^7.1.1",
+    "connect-sqlite3": "^0.9.15",
     "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mkdirp": "^3.0.1",
+    "mongoose": "^8.4.5",
     "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-google-oidc": "^0.1.0",
     "path": "^0.12.7",
-    "pug": "^3.0.2"
+    "pluralize": "^8.0.0",
+    "pug": "^3.0.2",
+    "redis": "^4.6.15",
+    "sqlite3": "^5.1.7"
   }
 }

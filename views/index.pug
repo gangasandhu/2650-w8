@@ -2,3 +2,9 @@ extends layout
 
 block content
   h1= title
+  if user
+    p Hello #{user.name}
+    a(href="/logout") Logout
+  else
+    p Hello Anonymous
+    a(href="/login/federated/google") Login
